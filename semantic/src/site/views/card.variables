@@ -1,0 +1,15 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@boxShadow:
+@borderShadow
+;
+
+@raisedShadow :
+@shadowBoxShadow ,
+@borderShadow ;
+
+@raisedShadowHover :
+@shadowHoverBoxShadow,
+@borderShadow
+;

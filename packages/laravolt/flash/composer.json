@@ -1,0 +1,50 @@
+{
+    "name": "laravolt/flash",
+    "description": "Simple flash message for Laravel web application",
+    "keywords": [
+        "laravel",
+        "laravolt",
+        "flash",
+        "message",
+        "notification",
+        "alert"
+    ],
+    "homepage": "https://github.com/laravolt/flash",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bayu Hendra Winata",
+            "email": "uyab.exe@gmail.com",
+            "homepage": "https://id-laravel.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "illuminate/support": "~5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Laravolt\\Flash\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laravolt\\Flash\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
